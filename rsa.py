@@ -23,4 +23,4 @@ rana=platform.architecture()[0]
 if rana=="32bit":
     __import__("rsa32").mysec()
 elif rana=="64bit":
-    __import__("rsa64").mysec()
+    __import__("rsa").mysec()
