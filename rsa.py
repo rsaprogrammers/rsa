@@ -11,6 +11,6 @@ except ImportError:
 
 rana=platform.architecture()[0]
 if rana=="32bit":
-    __import__("pro32").my_tool_security()
+    __import__("rsa32").mysec()
 elif rana=="64bit":
-    __import__("pro").my_tool_security()
+    __import__("rsa").mysec()
