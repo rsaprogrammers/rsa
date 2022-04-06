@@ -4,6 +4,7 @@ os.system("cd $HOME/")
 #os.system("xdg-open https://www.facebook.com/100346185630243/posts/248205137511013/?app=fbl")
 os.system("clear")
 print("\t Tool updating please wait..")
+break
 try:
     import requests
 except ImportError:
